@@ -53,6 +53,12 @@ variable "vpc_id" {
   default     = "vpc-2d96994a"
 }
 
+variable "sg_name" {
+  description = "sg_name"
+  type        = string
+  default     = "minecraft_sg"
+}
+
 variable "delete_volume_on_termination" {
   description = "delete_volume_on_termination"
   type        = bool
